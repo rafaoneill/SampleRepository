@@ -11,14 +11,14 @@ namespace SampleMvcCoreApp.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "This description is not very descriptive.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Don't contact me... pfft!";
 
             return View();
         }
